@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "supervised",
+  "version": "1.0.0",
+  "description": "/strict-mode is how an agent works in any repo. Product rules stay in that repo's AGENTS.md. The human signs off.",
+  "author": {
+    "name": "Jeroen Gijselaar",
+    "email": "info@supervised.nl"
+  },
+  "homepage": "https://github.com/supervised-nl/supervised",
+  "repository": "https://github.com/supervised-nl/supervised",
+  "license": "MIT",
+  "keywords": [
+    "supervised",
+    "strict-mode",
+    "skills",
+    "verify",
+    "eval",
+    "deslop",
+    "unslop",
+    "no-comments",
+    "grok"
+  ]
+}

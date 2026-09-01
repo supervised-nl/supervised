@@ -1,0 +1,19 @@
+{
+  "name": "supervised",
+  "version": "1.0.0",
+  "description": "/strict-mode is how an agent works in any repo. Product rules stay in that repo's AGENTS.md. The human signs off.",
+  "repository": "https://github.com/supervised-nl/supervised",
+  "homepage": "https://github.com/supervised-nl/supervised",
+  "license": "MIT",
+  "keywords": [
+    "supervised",
+    "grok",
+    "verify",
+    "eval",
+    "deslop",
+    "unslop",
+    "no-comments",
+    "skills",
+    "strict-mode"
+  ]
+}

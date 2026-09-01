@@ -1,0 +1,21 @@
+---
+description: Start non-trivial work with /strict-mode. Read AGENTS.md. Sketch types before new boundaries. no-comments, deslop, unslop, verify. Human signs off.
+alwaysApply: true
+---
+
+This rule applies to every agent once the supervised plugin is connected.
+
+Non-trivial work starts with `/strict-mode`. Read `principles.md` in this plugin, then this repo's `AGENTS.md`. Pick one playbook. Copy its steps into the todo list. Each step ends in a check.
+
+Code that crosses a function boundary waits on a type sketch. See Design in `skills/strict-mode/SKILL.md`.
+
+After the code change: `/no-comments`, then `/deslop`, then Review, then `/verify`. Reply and PR body: `/unslop`. Skill or prompt edits also need `/eval`. The human merges.
+
+Product rules (UI, copy, colors, locale, schema, verify command) come from `AGENTS.md`. Do not invent them.
+
+Code: no narrating comments, no `any`/`as` to silence the compiler, no one-caller wrappers, no try/catch on trusted paths. Match the file you are in.
+
+Secrets stay out of chat and git.
+
+Trivial (typo, question, one-line explain): do not force the playbook.
+Opt-out: user says strict-mode is off.
